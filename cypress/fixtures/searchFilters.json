@@ -1,0 +1,12 @@
+{
+  "BMW": {
+    "Tipo": "Nuevo",
+    "Marca": "BMW",
+    "Modelo": "128"
+  },
+  "Toyota": {
+    "Tipo": "Usado",
+    "Marca": "Toyota",
+    "Modelo": "2.5"
+  }
+}

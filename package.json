@@ -1,0 +1,19 @@
+{
+  "name": "chileautos-qa-automation-brimar",
+  "version": "1.0.0",
+  "description": "Suite de pruebas automatizadas para validar homepage de Chileautos.cl",
+  "scripts": {
+    "test": "cypress run",
+    "test:headed": "cypress open",
+    "test:dev": "ENVIRONMENT=dev cypress run",
+    "test:stg": "ENVIRONMENT=qa cypress run",
+    "test:prod": "ENVIRONMENT=prod cypress run"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^13.0.0",
+    "cypress-xpath": "^2.0.1",
+    "esbuild": "^0.21.0"
+  }
+}
